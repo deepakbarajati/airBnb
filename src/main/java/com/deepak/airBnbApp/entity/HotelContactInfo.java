@@ -1,7 +1,6 @@
 package com.deepak.airBnbApp.entity;
 
 import jakarta.persistence.Embeddable;
-import jakarta.persistence.GeneratedValue;
 import lombok.Getter;
 import lombok.Setter;
 
