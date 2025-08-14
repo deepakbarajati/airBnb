@@ -49,7 +49,7 @@ public class Hotel {
     @ManyToOne
     private User owner;
 
-    @OneToMany(mappedBy = "hotel")
+    @OneToMany(mappedBy = "hotel",cascade = CascadeType.ALL)
     private List<Room> rooms;
 
 }
