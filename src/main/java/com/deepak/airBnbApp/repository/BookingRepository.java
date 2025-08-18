@@ -1,4 +1,8 @@
 package com.deepak.airBnbApp.repository;
 
-public interface BookingRepository {
+import com.deepak.airBnbApp.entity.Booking;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface BookingRepository extends JpaRepository<Booking,Long> {
+
 }
